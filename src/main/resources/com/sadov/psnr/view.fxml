@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #F5DEB3;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sadov.psnr.Controller">
+   <children>
+      <AnchorPane layoutY="107.0" prefHeight="594.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;" />
+      <Button fx:id="modernImageButton" layoutX="245.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #45322E;" text="модерн. изображение" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="KacstBook" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="origImageButton" layoutX="32.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #45322E;" text="ориг. изображение" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="KacstBook" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
