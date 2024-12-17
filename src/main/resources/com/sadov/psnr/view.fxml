@@ -1,19 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #F5DEB3;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sadov.psnr.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #3995D7;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sadov.psnr.Controller">
    <children>
-      <AnchorPane layoutY="107.0" prefHeight="594.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;" />
-      <Button fx:id="modernImageButton" layoutX="245.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #45322E;" text="модерн. изображение" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+      <AnchorPane layoutY="107.0" prefHeight="594.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fx:id="origImgView" fitHeight="306.0" fitWidth="453.0" layoutX="30.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="modImgView" fitHeight="306.0" fitWidth="453.0" layoutX="515.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+      <Button fx:id="shadow1" layoutX="245.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="shadow1" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="KacstBook" size="13.0" />
+         </font>
+         <effect>
+            <Shadow height="26.0" radius="12.5" width="26.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </Shadow>
+         </effect>
+      </Button>
+      <Button fx:id="modernImageButton" layoutX="245.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="модерн. изображение" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font name="KacstBook" size="13.0" />
          </font>
       </Button>
-      <Button fx:id="origImageButton" layoutX="32.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #45322E;" text="ориг. изображение" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+      <Button fx:id="shadow11" layoutX="31.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="shadow2" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="KacstBook" size="13.0" />
+         </font>
+         <effect>
+            <Shadow height="26.0" radius="12.5" width="26.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </Shadow>
+         </effect>
+      </Button>
+      <Button fx:id="origImageButton" layoutX="32.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="ориг. изображение" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font name="KacstBook" size="13.0" />
          </font>
