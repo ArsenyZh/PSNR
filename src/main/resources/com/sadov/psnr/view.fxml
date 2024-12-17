@@ -14,11 +14,11 @@
    <children>
       <AnchorPane layoutY="107.0" prefHeight="594.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;">
          <children>
-            <ImageView fx:id="origImgView" fitHeight="306.0" fitWidth="453.0" layoutX="30.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="modImgView" fitHeight="306.0" fitWidth="453.0" layoutX="515.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
-            <TextField fx:id="textFieldX" layoutX="761.0" layoutY="14.0" promptText="x coord" />
-            <TextField fx:id="textFieldY" layoutX="760.0" layoutY="47.0" promptText="y coord" />
-            <TextField fx:id="textFieldHW" layoutX="760.0" layoutY="82.0" promptText="height/width" />
+            <ImageView fx:id="origImgView" fitHeight="306.0" fitWidth="453.0" layoutX="31.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="modImgView" fitHeight="306.0" fitWidth="453.0" layoutX="516.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" />
+            <TextField fx:id="textFieldX" layoutX="808.0" layoutY="16.0" promptText="x coord" />
+            <TextField fx:id="textFieldY" layoutX="807.0" layoutY="49.0" promptText="y coord" />
+            <TextField fx:id="textFieldHW" layoutX="807.0" layoutY="84.0" promptText="height/width" />
             <AnchorPane layoutX="631.0" layoutY="513.0" prefHeight="81.0" prefWidth="369.0" style="-fx-background-color: #3995D7;">
                <children>
                   <Label fx:id="PSNRValue" layoutX="197.0" layoutY="27.0" text="PSNR: " textFill="WHITE">
@@ -41,6 +41,7 @@
                   <Button fx:id="PSNRButton" layoutX="16.0" layoutY="21.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="145.0" style="-fx-background-color: #FFA515;" text="PSNR" />
                </children>
             </AnchorPane>
+            <AnchorPane fx:id="line1111" layoutX="626.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="81.0" prefWidth="10.0" style="-fx-background-color: #2A6A9A;" />
          </children>
       </AnchorPane>
       <Button fx:id="shadow1" layoutX="245.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="shadow1" textAlignment="CENTER" textOverrun="CLIP">
@@ -90,5 +91,8 @@
          </effect>
       </Button>
       <ChoiceBox fx:id="choiceBox" layoutX="770.0" layoutY="31.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #FFA515;" />
+      <AnchorPane fx:id="line11" layoutY="107.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="1000.0" style="-fx-background-color: #2A6A9A;" />
+      <AnchorPane fx:id="line1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="1000.0" style="-fx-background-color: #2A6A9A;" />
+      <AnchorPane fx:id="line111" layoutX="631.0" layoutY="620.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="369.0" style="-fx-background-color: #2A6A9A;" />
    </children>
 </AnchorPane>
