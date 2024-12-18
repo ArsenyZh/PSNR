@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
+=======
+>>>>>>> 99bf62939e060b4ff27a9b47b48dda8d1c49677b
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/PSNR/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/pom.xml" />
+>>>>>>> 99bf62939e060b4ff27a9b47b48dda8d1c49677b
       </list>
     </option>
   </component>

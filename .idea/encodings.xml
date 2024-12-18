@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/PSNR/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PSNR/src/main/resources" charset="UTF-8" />
+=======
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+>>>>>>> 99bf62939e060b4ff27a9b47b48dda8d1c49677b
   </component>
 </project>

@@ -9,5 +9,8 @@
         <module name="PSNR" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PSNR" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
