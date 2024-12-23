@@ -38,7 +38,7 @@
                         </Shadow>
                      </effect>
                   </Button>
-                  <Button fx:id="PSNRButton" layoutX="16.0" layoutY="21.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="145.0" style="-fx-background-color: #FFA515;" text="PSNR" />
+                  <Button fx:id="PSNRButton" layoutX="16.0" layoutY="21.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="145.0" style="-fx-background-color: #FFA515;" text="Пуск" />
                </children>
             </AnchorPane>
             <AnchorPane fx:id="line1111" layoutX="626.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="81.0" prefWidth="10.0" style="-fx-background-color: #2A6A9A;" />
@@ -56,7 +56,7 @@
             </Shadow>
          </effect>
       </Button>
-      <Button fx:id="modernImageButton" layoutX="245.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="модерн. изображение" textAlignment="CENTER" textOverrun="CLIP">
+      <Button fx:id="modernImageButton" layoutX="245.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="стегано контейнер" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font name="KacstBook" size="13.0" />
          </font>
@@ -73,7 +73,7 @@
             </Shadow>
          </effect>
       </Button>
-      <Button fx:id="origImageButton" layoutX="32.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="ориг. изображение" textAlignment="CENTER" textOverrun="CLIP">
+      <Button fx:id="origImageButton" layoutX="32.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #FFA515;" text="контейнер" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font name="KacstBook" size="13.0" />
          </font>
